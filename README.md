@@ -13,18 +13,22 @@ The page is deployed to Netlify with working submission form.
 ## Screenshots
 
 Navbar & Showcase areas
+
 <img src="navbar-and-showcase.png" width=600>
 
 
 Overlay area
+
 <img src="overlay-area.png" width=600>
 
 
 Images & Footer
+
 <img src="images-and-footer.png" width=600>
 
 
 Image viewing carousell
+
 <img src="image-viewing.png" width=600>
 
 
