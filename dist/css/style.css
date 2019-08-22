@@ -72,6 +72,7 @@ img {
   color: #555;
 }
 
+/* section a */
 .section-a {
   margin: 2rem 0;
 }
@@ -89,6 +90,40 @@ img {
   color: var(--primary-color);
 }
 
+/* section b */
+.section-b {
+  position: relative;
+  background: url(../img/gal4958.jpg) no-repeat bottom center/cover;
+  height: 600px;
+}
+
+.section-b-inner {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 860px;
+  padding: 5rem 0;
+}
+
+.section-b-inner h3 {
+  font-size: 2rem;
+}
+
+.section-b-inner h2 {
+  font-size: 5rem;
+  margin-top: 1rem;
+}
+
+.section-b-inner p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
 /* utilities */
 .btn {
   display: inline-block;
@@ -103,4 +138,13 @@ img {
 
 .btn:hover {
  background: var(--secondary-color); 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--overlay-color);  /*rgba since has to be translucent */
 }
